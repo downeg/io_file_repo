@@ -1,0 +1,28 @@
+:root {
+    --prompt: #facd3d;
+    --command: #5ebec4;
+    --console: #181818;
+    --output: #abf62d;
+    --text: #acbfe6;
+    --light: #ffb600;
+    --dark: #141824;
+    --black: #000000;
+    --white: #FFFFFF;
+    --ip: #fe4a49;
+  }
+
+  .navbar {list-style-type: none; margin: 0; padding: 0 ;}
+  .navbarLink {display: inline; background-color: var(--light); text-align: center; width: 150px; border: 1px solid var(--black); text-decoration: none; padding: 5px;}
+  .body { background-color: var(--black);}
+  .header { margin: auto; width: 50%; padding: 10px; color: var(--text)}
+  .wrapper { margin: auto; width: 80%; padding: 10px;}
+  .text {text-align: justify; background-color: var(--dark); color: var(--white)}
+  .console {text-align: left; background-color: var(--console); padding: 10px; overflow: auto;}
+  .prompt {color: var(--prompt);}
+  .command {color: var(--command)}
+  .ip {color: var(--ip);}
+  .output {color: var(--output)}
+  .code {color: var(--light); text-align: left;}
+  .tableLeft { background-color: var(--black); color: var(--text)}
+  .tableRight { background-color: var(--black); color: var(--text); text-align: right;}
+  .scroll {overflow: auto;}
